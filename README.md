@@ -23,3 +23,5 @@ This repository contains datasets and reference implementations for the paper:
 | RSLDA        |Wang, J., Wang, H., Nie, F., Li, X., 2022a. Ratio sum versus sum ratio for linear discriminant analysis. IEEE Transactions on Pattern Analysis and Machine Intelligence 44, 10171–10185. |
 | DDNM        | Luo, X., Wen, X., Zhou, M., Abusorrah, A., Huang, L., 2021. Decisiontree-initialized dendritic neuron model for fast and accurate data classiffcation. IEEE Transactions on Neural Networks and Learning Systems 33, 4173–4183. |
 | SNN10       | Klambauer, G., Unterthiner, T., Mayr, A., Hochreiter, S., 2017. Self-normalizing neural networks. Advances in neural information processing systems 30.|
+
+> For datasets exceeding 25MB, please download from [Dataset Portal](https://example.com/datasets). 
