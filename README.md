@@ -20,7 +20,6 @@ This repository contains datasets and reference implementations for the paper:
 | DESVM       | Xu, W., Liu, J., Lian, H., 2024. Distributed estimation of support vector machines for matrix data. IEEE transactions on neural networks an learning systems. |
 | DFSVM       | Li, W., Shan, W., Liu, M., 2025. A distributed algorithm for fuzzy support vector machine on multi-source data-driven credit scoring. Engineering Applications of Artiffcial Intelligence 143,110009.|
 | TDLDA |Li, M., Zhao, J., 2022. Communication-efffcient distributed linear discriminant analysis for binary classiffcation. Statistica Sinica 32, 1343–1361.|
-| RSLDA        |Wang, J., Wang, H., Nie, F., Li, X., 2022a. Ratio sum versus sum ratio for linear discriminant
-analysis. IEEE Transactions on Pattern Analysis and Machine Intelligence 44, 10171–10185. |
+| RSLDA        |Wang, J., Wang, H., Nie, F., Li, X., 2022a. Ratio sum versus sum ratio for linear discriminant analysis. IEEE Transactions on Pattern Analysis and Machine Intelligence 44, 10171–10185. |
 | DDNM        | Luo, X., Wen, X., Zhou, M., Abusorrah, A., Huang, L., 2021. Decisiontree-initialized dendritic neuron model for fast and accurate data classiffcation. IEEE Transactions on Neural Networks and Learning Systems 33, 4173–4183. |
 | SNN10       | Klambauer, G., Unterthiner, T., Mayr, A., Hochreiter, S., 2017. Self-normalizing neural networks. Advances in neural information processing systems 30.|
