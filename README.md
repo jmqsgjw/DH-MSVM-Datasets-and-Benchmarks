@@ -5,7 +5,7 @@ This repository contains datasets and reference implementations for the paper:
 **"DH-MSVM: A Hybrid Algorithm for Seeking Quality Support Vectors in Distributed Learning"**  
 
 ## 9 real-world datasets
-| Dataset    | \(D_{ir}\) | \(D_{te}\) | Dimension |
+| Dataset    | \(D_{tr}\) | \(D_{te}\) | Dimension |
 |------------|------------|------------|-----------|
 | Skin       | 196045     | 49012      | 3         |
 | Diabetes   | 46800      | 30000      | 8         |
