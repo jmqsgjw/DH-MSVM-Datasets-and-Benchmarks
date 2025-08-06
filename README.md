@@ -11,7 +11,7 @@ This repository contains datasets and reference implementations for the paper:
 | Diabetes   | 46800      | 30000      | 8         |
 | Heart      | 17000      | 10000      | 13        |
 | German     | 70000      | 30000      | 20        |
-| Ijçon      | 127787     | 63894      | 22        |
+| Ijcnn      | 127787     | 63894      | 22        |
 | Acoustic   | 73896      | 24632      | 50        |
 | Splice     | 43500      | 20000      | 60        |
 | Isbi4      | 360000     | 135600     | 1681      |
