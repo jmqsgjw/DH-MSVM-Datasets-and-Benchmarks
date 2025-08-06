@@ -17,7 +17,7 @@ This repository contains datasets and reference implementations for the paper:
 | Isbi4      | 360000     | 135600     | 1681      |
 | TV_News    | 86457      | 43228      | 4125      |
 
-⚠ **Note**: For datasets exceeding 25MB, please download from [Dataset Portal](https://pan.baidu.com/s/1wRHuLsHMpnZjhpA-AX7isQ?pwd=wieh code: wieh). 
+⚠ **Note**: For datasets exceeding 25MB, please download from [https://pan.baidu.com/s/1wRHuLsHMpnZjhpA-AX7isQ?pwd=wieh code: wieh]. 
 
 ## Implemented Baselines
 | Algorithm       | Reference                          |
