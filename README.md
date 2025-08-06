@@ -4,12 +4,20 @@ DH-MSVM Datasets and Benchmarks
 This repository contains datasets and reference implementations for the paper:  
 **"DH-MSVM: A Hybrid Algorithm for Seeking Quality Support Vectors in Distributed Learning"**  
 
-⚠ **Note**: Some compared algorithms did not release original complete implementations in their papers. This repository only provides reproduced core code snippets for reference. For full implementations, please contact the respective authors.
+## 9 real-world datasets
+| Dataset    | \(D_{ir}\) | \(D_{te}\) | Dimension |
+|------------|------------|------------|-----------|
+| Skin       | 196045     | 49012      | 3         |
+| Diabetes   | 46800      | 30000      | 8         |
+| Heart      | 17000      | 10000      | 13        |
+| German     | 70000      | 30000      | 20        |
+| Ijçon      | 127787     | 63894      | 22        |
+| Acoustic   | 73896      | 24632      | 50        |
+| Splice     | 43500      | 20000      | 60        |
+| Isbi4      | 360000     | 135600     | 1681      |
+| TV_News    | 86457      | 43228      | 4125      |
 
-## Contents
-- 📁 `datasets/`: Benchmark datasets used in the paper
-- 📁 `baselines/`: Reproduced key components of comparison algorithms  
-- 📄 `requirements.txt`: Python dependencies  
+⚠ **Note**: For datasets exceeding 25MB, please download from [Dataset Portal](https://pan.baidu.com/s/1wRHuLsHMpnZjhpA-AX7isQ?pwd=wieh code: wieh). 
 
 ## Implemented Baselines
 | Algorithm       | Reference                          |
@@ -24,4 +32,4 @@ This repository contains datasets and reference implementations for the paper:
 | DDNM        | Luo, X., Wen, X., Zhou, M., Abusorrah, A., Huang, L., 2021. Decisiontree-initialized dendritic neuron model for fast and accurate data classiffcation. IEEE Transactions on Neural Networks and Learning Systems 33, 4173–4183. |
 | SNN10       | Klambauer, G., Unterthiner, T., Mayr, A., Hochreiter, S., 2017. Self-normalizing neural networks. Advances in neural information processing systems 30.|
 
-> For datasets exceeding 25MB, please download from [Dataset Portal](https://pan.baidu.com/s/1wRHuLsHMpnZjhpA-AX7isQ?pwd=wieh code: wieh). 
+⚠ **Note**: Some compared algorithms did not release original complete implementations in their papers. This repository only provides reproduced core code snippets for reference. For full implementations, please contact the respective authors.
