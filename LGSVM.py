@@ -1,38 +1,3 @@
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.datasets import make_classification
-from sklearn import preprocessing
-from sklearn.metrics import f1_score
-from sklearn import svm
-import time
-import math
-import random
-import time
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-import cvxopt
-import cvxopt.solvers
-import mat4py
-import numpy
-import h5py
-import numpy as np
-from scipy import linalg
-import scipy.io
-import sklearn
-from sklearn.decomposition import PCA
-import sklearn.svm as svm
-from scipy.optimize import linprog
-# from liquidSVM import *
-from sklearn.metrics import classification_report
-import mat4py
-from imblearn.metrics import geometric_mean_score
-from sklearn import metrics
-import scipy.io as scio
-
-import warnings
-warnings.filterwarnings('ignore')
-from lgsvm import LGSVM
-
 """
 
 Demo example concerning the usage of the LGSVM classifier.
@@ -97,4 +62,5 @@ print('err_all_mean:', np.mean(err_all))
 print('err_all_std:', np.std(err_all))
 print('Time_all_sum:', np.sum(Time_all))
 print('err_all_max', np.max(err_all))
+
 
