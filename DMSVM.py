@@ -1,10 +1,3 @@
-import numpy as np
-from sklearn import preprocessing
-from sklearn.svm import SVC
-from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
-import time
-import matplotlib.pyplot as plt
-
 def svm_class(X, Y, C, tol, kernel, gamma):
     clf = SVC(C=C, tol=tol, kernel=kernel, gamma=gamma)
     clf.fit(X, Y)
@@ -104,4 +97,5 @@ ymtest /= x
 tp = fn = fp = tpm = fnm = fpm = 0
 
 yiid_pred = np.sign(yiidtest)
+
 err_yiid[step] = accuracy_score(test_labels, yiid_pred)
