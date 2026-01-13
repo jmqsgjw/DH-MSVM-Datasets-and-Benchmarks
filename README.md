@@ -1,7 +1,7 @@
 # DH-MSVM-Datasets-and-Benchmarks
 DH-MSVM Datasets and Benchmarks
 
-This repository contains datasets and reference implementations for the paper:  
+This repository contains datasets description and reference implementations for the paper:  
 **"DH-MSVM: A Hybrid Algorithm for Seeking Quality Support Vectors in Distributed Learning"**  
 
 ## 9 real-world datasets
@@ -17,7 +17,6 @@ This repository contains datasets and reference implementations for the paper:
 | Isbi4      | 360000     | 135600     | 1681      |
 | TV_News    | 86457      | 43228      | 4125      |
 
-⚠ **Note**: For datasets exceeding 25MB, please download from [https://pan.baidu.com/s/1wRHuLsHMpnZjhpA-AX7isQ?pwd=wieh code: wieh]. 
 
 ## Implemented Baselines
 | Algorithm       | Reference                          |
