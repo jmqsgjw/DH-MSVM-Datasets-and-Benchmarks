@@ -1,22 +1,3 @@
-import math
-import random
-import time
-import os
-import matplotlib.pyplot as plt
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-import cvxopt
-import cvxopt.solvers
-import mat4py
-import matplotlib.pyplot as plt
-import numpy
-import h5py
-import numpy as np
-
-import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras import datasets, layers, optimizers, Sequential
-from keras import regularizers
-
 def preprocess(x, y):
     x = tf.cast(x, dtype=tf.float32)
     y = tf.cast(y, dtype=tf.int32)
@@ -62,6 +43,7 @@ class SELU(object):
         model.summary()
         # w = w - lr*grad
         optimizer = optimizers.Adam(learning_rate=1e-3)
+
 
 
 
