@@ -1,11 +1,3 @@
-import numpy as np
-import scipy.io as scio
-import h5py
-import time
-import random
-from sklearn.svm import SVC
-from sklearn.metrics import accuracy_score
-
 # Load data
 data_path = "data.mat"
 data = scio.loadmat(data_path)
@@ -84,4 +76,5 @@ print("\n=============Final statistics results=============")
 print(f"Total number of repeated tests: {n_step}")
 print(f"Total training time: {total_time:.4f}s")
 print(f"Average error rate: {avg_error_rate:.4f}")
+
 print(f"Standard deviation of error rate: {std_error_rate:.4f}")
