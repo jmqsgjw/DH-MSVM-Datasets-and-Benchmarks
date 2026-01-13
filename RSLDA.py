@@ -1,12 +1,3 @@
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score
-from sklearn.preprocessing import StandardScaler
-import time
-import matplotlib.pyplot as plt
-
-
 class RSLDA:
     def __init__(self, n_components=1, max_iter=100, tol=1e-6):
         self.n_components = n_components
@@ -24,7 +15,6 @@ class RSLDA:
 
         prev_obj = -np.inf
         for _ in range(self.max_iter):
-            # 更新lambda_k
             self.lambdas = np.zeros(self.n_components)
             for k in range(self.n_components):
                 wk = self.W[:, k]
@@ -50,3 +40,4 @@ class RSLDA:
             if np.abs(current_obj - prev_obj) < self.tol:
                 break
             prev_obj = current_obj
+
