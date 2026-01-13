@@ -1,30 +1,3 @@
-import math
-import random
-import time
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-import matplotlib.pyplot as plt
-import mat4py
-import numpy
-import h5py
-import numpy as np
-from scipy import linalg
-import scipy.io
-import sklearn
-from sklearn.decomposition import PCA
-import sklearn.svm as svm
-from scipy.optimize import linprog
-
-from sklearn.metrics import classification_report
-import mat4py
-
-import scipy.io as scio
-from markovSampling import markovSampling
-from sklearn import metrics
-import warnings
-warnings.filterwarnings('ignore')
-
-
 def Fisher(train_features, train_targets,test_features,test_targets):
  train_pos = [i for i in range(len(train_targets)) if train_targets[i]==1]
  train_neg = [i for i in range(len(train_targets)) if train_targets[i]==-1]
@@ -46,3 +19,4 @@ def Fisher(train_features, train_targets,test_features,test_targets):
  predict_targets = np.sign(features_test)
  full = {"features": features, "features_test": features_test, "w": w, "baise": baise, "predict_targets":predict_targets} #输出字典
  return full
+
