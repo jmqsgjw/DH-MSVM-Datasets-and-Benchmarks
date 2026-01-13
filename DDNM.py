@@ -1,25 +1,3 @@
-import tensorflow as tf
-import h5py
-import random
-import numpy as np
-import pandas as pd
-from sklearn import metrics
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import accuracy_score
-
-tf.compat.v1.disable_eager_execution()
-from sklearn.metrics import f1_score
-from sklearn.metrics import auc
-from sklearn.metrics import roc_curve
-from sklearn.metrics import recall_score
-from sklearn.metrics import precision_score
-from sklearn.model_selection import train_test_split
-import time
-import scipy.io as scio
-import warnings
-
-warnings.filterwarnings('ignore')
-
 # Define parameter ranges for grid search
 k1_range = range(1, 21)  # 1 to 20
 k2_range = range(1, 11)  # 1 to 10
@@ -121,4 +99,5 @@ for k1 in k1_range:
                     jq_all1[0, step] = metrics.precision_score(y_test, prediction_value, average='macro')
                     zh_all1[0, step] = metrics.recall_score(y_test, prediction_value, average='macro')
                     avf1_all1[0, step] = metrics.f1_score(y_test, prediction_value, average='weighted')
+
 
