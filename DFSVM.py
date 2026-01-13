@@ -1,12 +1,3 @@
-import numpy as np
-import scipy.io as scio
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score, precision_score, recall_score
-import matplotlib.pyplot as plt
-import time
-import h5py
-
-
 class FuzzySVM:
     def __init__(self, lambda_param=0.01, tau=0.1, s_plus=0.7, s_minus=0.5, max_iter=100, tol=1e-4):
         self.lambda_param = lambda_param
@@ -116,3 +107,4 @@ class FuzzySVM:
             raise ValueError("Model not trained yet.")
         scores = self.theta0 + np.dot(X, self.theta)
         return np.where(scores >= 0, 1, -1)
+
